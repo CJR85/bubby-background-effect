@@ -37,3 +37,8 @@
   transition: 4s;
   opacity: 0;
 }
+
+.container span:hover::before {
+  transition: 0s;
+  opacity: 1;
+}
